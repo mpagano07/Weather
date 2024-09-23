@@ -2,7 +2,7 @@ import { useContext, useState } from 'react';
 import { Autocomplete, TextField,Typography } from '@mui/material';
 import { WeatherContext } from '../context/WeatherContext';
 import { useWeather } from '../hooks/useWeather';
-import { countries } from './countries.data';
+// import { countries } from './countries.data';
 
 const SearchBar = () => {
   const { fetchWeather, error } = useWeather();

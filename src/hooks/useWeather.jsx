@@ -21,7 +21,7 @@ export const useWeather = () => {
         setError('Verifica el nombre de la ciudad.');
       }
     };
-  }, []);
+  }, [addToHistory, setWeatherData]);
 
   return { fetchWeather, error };
 }
